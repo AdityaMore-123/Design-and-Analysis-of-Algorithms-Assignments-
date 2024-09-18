@@ -6,7 +6,6 @@ struct Shop
     int start, end;
 };
 
-// Bubble sort to sort shops based on their ending time
 void bubbleSort(Shop shops[], int N) 
 {
     for (int i = 0; i < N - 1; ++i) 
@@ -45,7 +44,7 @@ int main()
     cout << "Enter the number of persons: ";
     cin >> K;
 
-    // Sort the shops based on their end times using bubble sort
+ 
     bubbleSort(shops, N);
 
     int persons[K] = {0};
