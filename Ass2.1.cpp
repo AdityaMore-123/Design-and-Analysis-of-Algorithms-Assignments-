@@ -50,7 +50,6 @@ int main()
     int persons[K] = {0};
     int count = 0;
 
-    // Assign shops to persons optimally
     for (int i = 0; i < N; ++i) 
 	{
         for (int j = 0; j < K; ++j) 
